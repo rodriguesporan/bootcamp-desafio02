@@ -46,3 +46,5 @@ Para anula-las cri o arquivo .prettierrc na raiz do projeto e adicione as linhas
 Com o botão direito do mouse crie o arquivo .editorconfig e altere as linhas abaixo para true:
 trim_trailing_whitespace = true
 insert_final_newline = true
+
+docker run --name database -e POSTGRES_PASSWORD=docker -d postgres -p 5433:5433
